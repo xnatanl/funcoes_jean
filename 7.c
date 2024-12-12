@@ -24,7 +24,7 @@ int main (){
        scanf("%d", &x[i]);
     }
 
-    printf("%d", somatoria(x));
+    printf("%d\n", somatoria(x));
 
     return 0;
 }
