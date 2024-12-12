@@ -4,7 +4,7 @@ int calcula(double c, int m, double t){
 
     double j = c * m * (t/100);
 
-    printf("Juros do emprestimo eh: %.2lf", j);
+    printf("Juros do emprestimo eh: %.2lf\n", j);
 
 }
 int main(){
