@@ -12,7 +12,7 @@ int main(){
 
     scanf("%d %d %d", &a, &b, &c);
 
-    printf("%d", delta(a,b,c));
+    printf("%d\n", delta(a,b,c));
 
     return 0;
 }
