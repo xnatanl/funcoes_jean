@@ -1,10 +1,11 @@
 #include<stdio.h>
+#define N 10
 
 int par(int x[]){
 
     int qtdPar = 0;
 
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < N; i++){
         if(x[i] % 2 == 0)
         {
             qtdPar += 1;
@@ -15,9 +16,9 @@ int par(int x[]){
 
 int main(){
 
-    int x[3];
+    int x[N];
 
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < N; i++){
         scanf("%d", &x[i]);
     }
 
