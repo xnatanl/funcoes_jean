@@ -25,7 +25,7 @@ int main(){
 
     scanf("%d %d %d", &a, &b, &c);
 
-    printf("Quantidade de numeros par eh: %d", par(a, b, c));
+    printf("Quantidade de numeros par eh: %d\n", par(a, b, c));
 
     return 0;
 }
