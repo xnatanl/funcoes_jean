@@ -13,7 +13,7 @@ int main(){
 
     scanf("%d %d", &b, &h);
 
-    printf("%d", quadrado(b, h));
+    printf("%d\n", quadrado(b, h));
 
     return 0;
 }
